@@ -15,5 +15,6 @@ Screen resolution, target frame rate and video to use can be specified in the ap
 Known issues
 ============
 * TransferVideoFrame may throw exceptions on some NVidia cards. A workaround for this is using DirectX9 only (see configuration file).
+* On Windows 8.1 the videoplayer may drop frames when decoding high bitrate video frames. This issue does not occur on Windows 8.  
 
 
